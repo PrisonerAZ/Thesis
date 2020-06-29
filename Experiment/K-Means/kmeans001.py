@@ -149,7 +149,7 @@ def load_coco_dataset(json_path):
     return np.array(dataset)
 
 
-ANNOTATIONS_PATH = r"C:\Users\Administrator\Desktop\数据集阶段存储\【7】整合xml\COCO\annotations\instances_train2017.json"
+ANNOTATIONS_PATH = r"path/to/instances_train2017.json"
 data = load_coco_dataset(ANNOTATIONS_PATH)
 print("读取完毕，返回data数据...")
 
